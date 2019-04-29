@@ -1,0 +1,56 @@
+a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+body nav#mainNav .navcontent {
+  color: #087efe;
+}
+
+nav#main-nav ul li {
+    background-color: #dcb5b9;
+    color: #000000;
+    display: inline-block;
+
+}
+nav#mainNav {
+    position: inherit !important;
+}
+nav#main-nav ul {
+    list-style: none;
+    list-style-type: none;
+    padding-left: 0;
+    padding-top: 10px;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    height: 100;
+}
+nav#main-nav ul li a {
+    display: block;
+    height: 100%;
+    color: inherit;
+}
+nav#main-nav {
+  /* height: 62px; */
+  background-color: #1b16168a;
+}
+#navbtn {
+  background-color: #98b24c;
+}
+#Logo {
+  width: 66px;
+  height: 66px;
+}
+.form-control {
+    display: block;
+    width: 25%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 1px solid #176abd;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

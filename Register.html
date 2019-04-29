@@ -7,7 +7,7 @@
   <!-- boostrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Custom css -->
-    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="Register.css">
     <script
 			  src="https://code.jquery.com/jquery-2.2.4.min.js"
 			  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
@@ -38,7 +38,7 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li> -->
             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
           </ul>
         </div>
@@ -46,16 +46,19 @@
 
 
     </nav>
+    <div class="header">
+      <h2>Register</h2>
+    </div>
 <!-- Register Form  -->
-    <div id="main-content">
-        <form action="FormHandler.php" method="POST">
+    <div class="input-gourp" id="Register-content">
+        <form action="backend/registration.php" method="POST">
             <div class="form-group">
                 <label for="InputFName">First Name</label>
                 <input type="FName" name="fname" class="form-control" id="InputFname1" placeholder="First Name">
             </div>
-            <div class="form-group">
-                <label for="InputLName">Last Name</label>
-                <input type="LName" name="lname" class="form-control" id="InputLname1" placeholder="Last Name">
+            <div class="form-group" >
+                <label for="InputLName"  >Last Name</label>
+                <input type="LName" name="lname"  class="form-control" id="InputLname1" placeholder="Last Name">
             </div>
             <div class="form-group">
                 <label for="InputEmail">Email Address</label>
@@ -69,7 +72,8 @@
                 <label for="InputPass">Password</label>
                 <input type="password" name="pass" class="form-control" id="InputPass1" placeholder="Password">
             </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary">Register</button>
+              <p> Already a member? <a href="#">Sign in</a> </p>
             </form>
     </div>
 

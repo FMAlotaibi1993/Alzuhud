@@ -17,7 +17,7 @@
 
   </head>
   <body id="mainpage">
-
+<h1>HomePage</h1>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <img id="Logo" class="img" src="img\Logo.jpeg">
       <div class="container">
@@ -44,7 +44,7 @@
           </ul>
         </div>
       </div>
-
+<!--when TO HomePage is clicked it takes you to the html file no the php -->
 
     </nav>
 <!-- Register Form  -->
